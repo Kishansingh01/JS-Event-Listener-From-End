@@ -1,0 +1,9 @@
+.dark {
+    background-color: black;
+    color: white; /* Example: setting text color for readability */
+}
+
+.light {
+     background-color: white;
+    color: black; /* Example: setting text color for readability */
+}

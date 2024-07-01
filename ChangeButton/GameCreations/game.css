@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+h1{
+    background-color:#081b31;
+    color:white;
+    height:3rem;
+    /* rem height gives the distance cover by the color */
+    line-height:3rem;
+ /* Line height gives the distancegap btween the colors  */
+
+}
+
+.choice{
+    height:165px;
+    width:165px;
+}
+img{
+    height:150px;
+    width:150px;
+    object-fit:cover;
+    border-radius:50%;
+    /* I have to make that cover in a round shape */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.choices{
+    display:flex;
+    /* Up means i am making thr column ito horizontal */
+    justify-content:center;
+    align-items:centre;
+    gap:3rem;
+    margin-top:50%;
+}
+
+.choice:hover{
+    opacity:0.5;
+    /* opacity when i hover on it it will show some blur color */
+   cursor:pointer;
+   /* cursor pointer means when i hover on it it will show a pointer */
+}
+
+.score-board{
+    display:flex;
+    justify-content:centre;
+    align-items:center;
+    font-size:2rem;
+    /* Font size means size of the text */
+    margin-top:3rem;
+    gap:5rem;
+
+}
+.msg-container{
+    margin-top:1rem;
+}
+
+#user-score,
+#comp-score{
+    font-size:4rem;
+    display:inline;
+
+}
+#msg{
+    background-color:#081b31;
+    color:#fff;
+    font-size:2rem;
+    display:inline;
+    padding:2rem;
+    border-radius:3rem;
+    gap:3rem;
+
+}
